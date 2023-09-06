@@ -1,0 +1,97 @@
+body{
+	background-color: #FE8F8F;
+	width: 80%;
+}
+
+h1{
+	color: #FFFFFF;
+	font-size: 100px;
+	text-shadow: 2px 2px 0px black;
+	font-family: 'Kablammo';
+}
+
+.intro{
+	font-size: 30px;
+	font-family: 'Montserrat Alternates';
+}
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+	background-color: #EEC9C9;
+}
+
+td{
+	border: 8px solid #FFFFFF;
+	padding: 10px;
+}
+
+section{
+	width: 100%;
+	margin: 20px auto;
+}
+
+.img_item{
+	width: 100%;
+	height: auto;
+}
+
+h2{
+	color: #330202;
+	font-size: 50px;
+	text-shadow: 2px 2px 0px white;
+	font-family: 'Kablammo';
+}
+
+.buy_button{
+	padding: 10px 20px;
+	font-size: 40px;
+	font-family: 'Kablammo';
+	background-color: white;
+	color: #E57878;
+	border: none;
+	border-radius: 10px;
+	margin: 20px;
+	cursor: pointer;
+
+}
+
+.buy_button:hover{
+	background-color:#E57878 ;
+	color: white;
+}
+
+.price{
+	font-size: 40px;
+	font-family: 'Montserrat Alternates';
+	color: white;
+}
+
+.description{
+	font-size: 25px;
+	font-family: 'Montserrat Alternates';
+}
+
+.flex_container_button_and_price{
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	grid-gap: 20px;
+}
+
+.comeback{
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 50px;
+	background-color: #E57878;
+	color: white;
+	text-decoration: none;
+	border-radius: 10px;
+	font-family: 'Montserrat Alternates';
+}
+
+.comeback:hover{
+	background-color:white ;
+	color: #E57878;
+	cursor: pointer;
+}
+
